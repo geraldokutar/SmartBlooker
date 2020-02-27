@@ -207,11 +207,11 @@ main {
 }
 
 footer {
-    
+
+    background-color: #FF3B2B;
     font-family: var(--Snigle-font);
-    font-size: 20px;
+    font-size: 17px;
     padding: 5vmin 0vmin;
-    background-color: gray;
     color: white;
 }
 

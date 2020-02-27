@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Smart Bulooka</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="../css/rentstyle.css">
     <script src="https://kit.fontawesome.com/6e112faf38.js" crossorigin="anonymous"></script>
  
 </head>
 <body>
+  
 
 <header>
   
@@ -74,9 +75,9 @@
   <div class="container text-center">
     <div class="row">
       <div class="col-md-7 col-sm-12">
-        <div>
+        <div class="map-space">
         
-         <h1>RENT/BUY</h1><br>
+         
 
          
          <h1>MAP SPACE</h1>
@@ -94,13 +95,11 @@
 
 </header>
 
-<main>   
-
 
 
   <section class="sec-1">
   <div class="section-1">
-    <img src="../assets/alberto.jpg" alt="sm-image1">
+    <img src="../assets/alberto.jpg" alt="sm-image1"><p></p>
     <img src="../assets/bailey.jpg" alt="sm-image2">
     <img src="../assets/daniel.jpg" alt="sm-image3">
     <img src="../assets/evan.jpg" alt="sm-image4">
@@ -111,9 +110,17 @@
     <img src="../assets/outsite.jpg" alt="sm-image9">
     <img src="../assets/scott.jpg" alt="sm-image10">
     
+    
   </div>
+  
 </section>
-<br>
+<div class="p">
+    <button id="btnScrollToTop">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+
+</div>
+
 
 </main>
 
@@ -159,6 +166,17 @@
   </div>
 
 </footer>
+<script>
+  const btnScrollToTop = document = document.querySelector('#btnScrollToTop');
+  btnScrollToTop.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      left:0,
+      behavior: 'smooth'
+
+    });
+  });
+</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

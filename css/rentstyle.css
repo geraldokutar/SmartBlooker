@@ -7,6 +7,7 @@ section {
 
     
 }
+
 .h1 {
      color: black;
 }
@@ -66,12 +67,13 @@ background: linear-gradient(to right, #FF4B2B, #FF416C);
     height: 110%
 }
 header {
-
-    background-color: ivory
+     
+     
+    background-color: ivory;
     background-repeat: no repeat;
     
     background-size: 100% 100%;
-    color: white;
+    color:black;
     height: 110%
 }
 
@@ -113,7 +115,9 @@ header {
 header .nav-item:last-child {
     padding-right: 5.5em;
 }
-
+.p {
+     color:black;
+}
 header .nav-item {
     padding: 0.9em;
     line-height: 20px;
@@ -163,7 +167,7 @@ header .row .col-md-7 p {
 
 .sec-1 {
     display: flex;
-    height: 120vh;
+    height: 60vh;
 }
 
 .section-1 {
@@ -208,17 +212,24 @@ main {
 }
 
 footer {
+     font-family: var(--Snigle-font);
+    font-size: 17px; 
     padding: 5vmin 0vmin;
-    background-color:gray;
+    background-color: #FF3B2B;
     color: white;
 }
 
 .feedback-sm {
-    border-radius: 5px;
+    border-radius: 10px;
     width: 300px;
+}
+.map-space {
+     color: balck;
+     
 }
 .container-fluid{
 
+     
     line-height: 0px;
     height: 40px;
     background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
@@ -263,3 +274,20 @@ footer {
     line-height: 20px;
     width: 800px;
  }
+ #btnScrollToTop {
+     position: fixed;
+     
+     right: 10px;
+     bottom: 10px;
+     width: 50px;
+     height: 50px;
+     background: #e84118;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+     color: white;
+     outline:none;
+     cursor: pointer; 
+     border-radius: 20%;
+}
+#btnScrollToTop:active {
+     background: #cc2333;
+}
