@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: whitesmoke;
+    background-color:#f6f5f7 ;
     /*background-image: url("../assets/stephen.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;*/
@@ -17,7 +17,7 @@ body {
 }
 
 .current {
-    background-color: orange;
+    background-color: #FF4B2B;
     border-radius: 8px;
     box-shadow: 2px 5px 5px white;
     transition: all .3s;

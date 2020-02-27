@@ -7,6 +7,8 @@
     <title>Smart Bulooka</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/6e112faf38.js" crossorigin="anonymous"></script>
+ 
 </head>
 <body>
 
@@ -14,28 +16,21 @@
   
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="#">Smart Bulooka</a>
+  <a class="nav-link navbar-brand" href="index.html">Smart Bulooka</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="navcollapse navbar-collapse" id="navbarSupportedContent">
     <div class="mr-auto"></div>
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Buy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Sell</a>
-      </li>
+        
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          More
-        </a>
+      
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Client reviews</a>
           <a class="dropdown-item" href="#">View all property</a>
@@ -44,38 +39,77 @@
         </div>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    <form class=" form-back form-inline my-2 my-lg-0">
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        <li class="nav-item active">
+          <a class="navdash nav-link" href="index.html" >Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="navdash nav-link" href="rent.html">Rent/Buy</a>
+        </li>
+        <li class="nav-item">
+          <a class="navdash nav-link" href="postlisting.html">Post Listing</a>
+        </li>
+        <li class="nav-item">
+            <a class="navdash nav-link" href="services.html">Servises</a>
+          </li>
+        
+          <li class="nav-item">
+              <a class="navdash nav-link" href="about.html">About us</a>
+            </li>         
+
+    </form> 
+  
   </div>
 </nav>
   </div>
-
+  
+<header>
   <div class="container text-center">
     <div class="row">
       <div class="col-md-7 col-sm-12">
+        <div>
          <h6>NEED PROPERTY, LOOK NO FURTHER</h6>
          <h1>SMART BULOOKA</h1><br>
+
+         
          <!--<p>Link to a home that you desire</p>-->
-         <button class="btn btn-outline-light px-5 py-2 h-25 btn-sm">Sign Up</button>
-         <button class="btn btn-outline-light px-5 py-2 h-25 btn-sm">Sign In</button>
+         <a class="btn btn-outline-light px-5 py-2 h-25 btn-sm" href="signup.html">Log in</a>
+  
          <!--<img src="#" alt="property">-->
       </div>
-      <div class="col-md-5 col-sm-12"></div>
-    </div>
+      
+
+      </div>
   </div>
+</div>
 
 </header>
 
-<main>
-<div class="h2-1 well well-lg text-center">
+<main>   
+<div class="h2-1 well text-center">
+  <div class="navbar-brand">
+    <div class="search-box">
+            <input class='search-txt' type="text"name="" placeholder="Type to search">
+            <a class= "search-btn" href="#">
+                <i class="fas fa-search"></i>
+            </a>
+          </div>
+         </div> 
+        <br>
+  
+
   <h2>NEW PROPERTIES</h2>
+  
 </div>
 
-<section class="sec-1 container-fluid">
+  <section class="sec-1">
   <div class="section-1">
     <img src="../assets/alberto.jpg" alt="sm-image1">
+    <br>
     <img src="../assets/bailey.jpg" alt="sm-image2">
     <img src="../assets/daniel.jpg" alt="sm-image3">
     <img src="../assets/evan.jpg" alt="sm-image4">
@@ -85,6 +119,7 @@
     <img src="../assets/michael.jpg" alt="sm-image8">
     <img src="../assets/outsite.jpg" alt="sm-image9">
     <img src="../assets/scott.jpg" alt="sm-image10">
+    
   </div>
 </section>
 
@@ -112,7 +147,7 @@
         <div class="col-12 text-center p-2">
           <input class="feedback-sm" type="text" id="name" name="name" placeholder="Name">
         </div>
-        </br>
+        <br>
 
         <div class="col-12 text-center p-2">
           <input class="feedback-sm" type="email" id="email" name="email" placeholder="Email">
